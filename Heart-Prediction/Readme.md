@@ -7,10 +7,10 @@ This Project is mainly divided into two parts:
 
 **About the repository Structure :**
 
-- Project consist `app.py` script which is used to run the application and is engine of this app. contians API that gets input from the user and computes a predicted value based on the model.
+- `app.py` script which is used to run the application and is engine of this app. It contians API that gets input from the user and computes a predicted value based on the model.
 - `model.py` contains code to build and train a Machine learning model.
-- *templates* folder contains one file `index.html` which describe the structure of the app and the way this web application behaves. This file are connected with Python via Flask framework.  
-- *static* folder contains file `style.css` which adds some styling and enhance the look of the application. 
+- *templates* folder contains one file `index.html` It contains the frontend of the application. it is connected to Flask for python.
+- *static* folder contains file `style.css` for styling. 
 
 ### Installation
 If you have never ran a machine learning model on you machine then it is recommended to install these dependencies. 
